@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Police car', 'Protection Civile', 'ambulance', 'driver', 'gendarme car', 'helmet', 'no-helmet']
+
+roboflow:
+  workspace: daif-yahya-8byeo
+  project: road-safety-objects-detection-eoy9v
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/daif-yahya-8byeo/road-safety-objects-detection-eoy9v/dataset/2
